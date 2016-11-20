@@ -8,7 +8,8 @@ public class Task1 {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateP(5.1));
+
+        System.out.println(calculateP(3.35));
     }
 
 }
