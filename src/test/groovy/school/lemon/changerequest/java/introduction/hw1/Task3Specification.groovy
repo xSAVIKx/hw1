@@ -16,6 +16,5 @@ class Task3Specification extends Specification {
         6   | 6   | 6  || true
         -1  | -2  | 0  || false
         -28 | -26 | 26 || true
-        51  | 128 | 1  || true
     }
 }
