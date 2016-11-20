@@ -8,8 +8,13 @@ public class Task6 {
 
     public static double calculateS(double x) {
 
-        return (1+x+ Math.pow(x, 2)/factorial(2)+Math.pow(x, 3)/factorial(3)+Math.pow(x, 4)/factorial(4));
+        double sum=0;
+        for(int i = 0;i<=4;i++) {
+            sum+=Math.pow(x,i)/factorial(i);
+        }
+        return sum;
     }
+
 
     public static double calculateZ(double x, double y) {
 
