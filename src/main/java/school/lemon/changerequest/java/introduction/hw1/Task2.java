@@ -3,6 +3,12 @@ package school.lemon.changerequest.java.introduction.hw1;
 
 public class Task2 {
     public static int getMeters(int centimeters) {
-        return 0;
+        int metres =centimeters/100;
+
+        return metres;
     }
+
+
+
 }
+
