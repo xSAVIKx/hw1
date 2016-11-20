@@ -7,6 +7,6 @@ public class Task2 {
     }
 
     public static void main(String[] args) {
-        System.out.println(getMeters(10987));
+        System.out.println(getMeters(1001));
     }
 }

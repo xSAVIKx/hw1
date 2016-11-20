@@ -8,7 +8,10 @@ public class Task3 {
         return false;
     }
 
+
+
     public static void main(String[] args) {
-        System.out.println(isBetween(-1, 0, 50));
+        System.out.println(isBetween(-28, -26, 26));
+
     }
 }

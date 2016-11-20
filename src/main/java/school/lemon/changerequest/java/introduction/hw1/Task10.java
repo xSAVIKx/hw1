@@ -4,6 +4,29 @@ package school.lemon.changerequest.java.introduction.hw1;
 public class Task10 {
 
     public static boolean containDigitTwo(int n) {
-        return false;
+
+//        вариант 1:
+//        String number = Integer.toString(n);
+//        boolean isContain2 = number.contains("2");
+//        return isContain2;
+//        вариант 2:
+
+        String number = Integer.toString(n);
+        boolean containDigit = true;
+        for (int i = 0; i < number.length(); i++){
+            if (number.charAt(i) == '2'){
+                 containDigit = true;
+            break;
+            }
+            else containDigit = false;
+            }
+
+       return containDigit;
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(containDigitTwo(29914));
     }
 }
+
