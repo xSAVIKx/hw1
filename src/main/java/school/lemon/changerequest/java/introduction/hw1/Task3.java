@@ -1,7 +1,7 @@
 package school.lemon.changerequest.java.introduction.hw1;
 
 public class Task3 {
-    public static boolean isBetween(int a, int b, int c) {
-        return false;
+    public static Boolean isBetween(int a, int b, int c) {
+        return a >= b && b >= c || a <= b && b <= c;
     }
 }
