@@ -10,7 +10,9 @@ public class Task4 {
             if(b > a && a > c)
                 return b + a;
         else
-            return b+c;
+            if(c > a && a > b)
+            return c + a;
+        else return b + c;
 
     }
 }
