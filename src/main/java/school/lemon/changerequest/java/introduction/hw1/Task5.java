@@ -10,7 +10,10 @@ public class Task5 {
     }
 
     private static double calculateB(double z) {
-       return 1 +((z*z)/(3+(z*z)/5));
+        double res = (z*z);
+        res /=(3+(z*z)/5);
+        res +=1;
+        return res;
     }
 
 
