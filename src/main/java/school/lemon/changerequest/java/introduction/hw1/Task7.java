@@ -3,34 +3,27 @@ package school.lemon.changerequest.java.introduction.hw1;
 
 public class Task7 {
     public static String getDayTitle(int dayIndex)
-    { String dayToString;
-
+    {
         switch (dayIndex)
         {
             case 1:
-                dayToString = "Monday";
-                break;
+                return  "Monday";
             case 2:
-                dayToString = "Tuesday";
-                break;
+                return "Tuesday";
             case 3:
-                dayToString = "Wednesday";
-                break;
+                return "Wednesday";
             case 4:
-                dayToString = "Thursday";
-                break;
+                return "Thursday";
             case 5:
-                dayToString = "Friday";
-                break;
+                return "Friday";
             case 6:
-                dayToString = "Saturday";
-                break;
+                return "Saturday";
             case 7:
-                dayToString = "Sunday";
-                break;
-            default: dayToString = "error";
-                break;
+                return "Sunday";
+
+            default: return "error";
+
         }
-        return dayToString;
+
     }
 }
