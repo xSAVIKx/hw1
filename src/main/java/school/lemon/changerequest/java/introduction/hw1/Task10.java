@@ -6,6 +6,7 @@ public class Task10 {
     public static boolean containDigitTwo(int n) {
         while(n >= 2)
         {
+            if(n == 2) return true;
             n /=10;
             if(n % 10 == 2)
                 return true;
