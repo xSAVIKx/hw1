@@ -4,19 +4,17 @@ package school.lemon.changerequest.java.introduction.hw1;
 public class Task4 {
 
     public static double getSumOfGreatest(double a, double b, double c) {
-        double sum;
-        if (a < b && a < c){
-             sum = b + c;
-        }
-        else if (b < a && b < c){
-            sum = a + c;
 
+        if (a < b && a < c) {
+            return b + c;
         }
-        else sum = a + b;
-        return sum;
+        if (b < a && b < c) {
+            return a + c;
+        } else return a + b;
+
     }
 
     public static void main(String[] args) {
-        System.out.println(getSumOfGreatest(5, 4, -1));
+        System.out.println(getSumOfGreatest(-1, -2, 0));
     }
 }

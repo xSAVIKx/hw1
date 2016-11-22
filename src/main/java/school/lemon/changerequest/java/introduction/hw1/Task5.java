@@ -3,14 +3,15 @@ package school.lemon.changerequest.java.introduction.hw1;
 
 public class Task5 {
     public static double calculateA(double x, double y, double z) {
-        double a;
-        a = (2 * (Math.sin(((x - ((Math.PI)/6))*calculateB(z)))) / (1/2 + Math.pow((Math.sin(y)), 2)));
-        return a;
+        double a = 1/2;
+        double b = 2 * Math.sin((x - (Math.PI) / 6) * calculateB(z));
+        double c = a + Math.pow((Math.sin(y)), 2);
+        return b/c;
     }
 
     private static double calculateB(double z) {
-        double b = 1 + (Math.pow(z, 2)/(3 + Math.pow(z,2)/5));
-        return b;
+
+        return 1.0 + Math.pow(z, 2) / (3.0 + Math.pow(z, 2) / 5);
     }
 
     public static void main(String[] args) {
