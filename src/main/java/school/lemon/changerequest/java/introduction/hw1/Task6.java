@@ -4,13 +4,12 @@ public class Task6 {
     public static double calculateS(double x) {
 
         double sum = 1 + x;
-        int y = 1;
-        for (int i = 2; i <= 4; i++) {
+
+        for (int i = 2, y = 1; i <= 4; i++, y = 1) {
             for (int j = i; j > 0; j--) {
                 y = y * j;
             }
             sum += Math.pow(x, i) / y;
-            y = 1;
         }
 
         return sum;
