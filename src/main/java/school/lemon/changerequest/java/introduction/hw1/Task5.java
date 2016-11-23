@@ -10,7 +10,7 @@ public class Task5 {
     }
 
 
-    public static double calculateB(double z) {
+    private static double calculateB(double z) {
         double p = Math.pow(z, 2);
 
         return (1 + p / (3 + p / 5));
