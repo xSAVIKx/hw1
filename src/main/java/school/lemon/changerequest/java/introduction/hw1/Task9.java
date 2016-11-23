@@ -2,18 +2,18 @@ package school.lemon.changerequest.java.introduction.hw1;
 
 public class Task9 {
 
-    public static boolean isPowerOfThree(int n) {
+    public static boolean isPowerOfThree(float n) {
 
-        int i;
-        {
-            do {
-                i = n / 3;
+
+
+            while (n>0) {
+
+                if (n==1) return true;
+                n=n/3;
 
             }
-            while (i % 3 == 1);
+           return false;
 
-            return true;
 
-        }
            }
 }
