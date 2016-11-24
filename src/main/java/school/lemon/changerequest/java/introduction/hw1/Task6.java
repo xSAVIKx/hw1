@@ -12,17 +12,22 @@ public class Task6 {
 
 
     public static double calculateS(double x) {
-        double sum = 0;
+        double sum = 1;
+
+
 
         for (int i = 1; i < 5; i++) {
 
 
-            sum += Math.pow(x, i) / fact(i);
+            sum +=(Math.pow(x, i) / fact(i));
         }
 
         return sum;
 
     }
+
+
+
 
 
     public static double calculateZ(double x, double y) {
