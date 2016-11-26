@@ -6,7 +6,8 @@ public class task10 {
         while (n >= 2)
         {
             n/10 = 10;
-            if (n % 10 = 2) {
+            if (n % 10 = 2)
+            {
                 return true;
             }
             else {
