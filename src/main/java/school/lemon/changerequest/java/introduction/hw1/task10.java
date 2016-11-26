@@ -14,3 +14,4 @@ public class task10 {
         }
     }
 }
+
