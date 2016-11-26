@@ -2,9 +2,7 @@ package school.lemon.changerequest.java.introduction.hw1;
 
 public class Task3 {
     public static boolean isBetween(int a, int b, int c) {
-        if (a>=b && b>=c || a<b && b<c || a>c && b<c) return true;
-        else
-            return false;
+       return b<=a && b>=c || b>a && b<c || b>c && b<a;
     }
     public static void main (String[] args){
         System.out.println(Task3.isBetween(1,2,3));
