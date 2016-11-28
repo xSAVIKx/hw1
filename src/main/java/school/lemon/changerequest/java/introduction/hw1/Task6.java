@@ -8,12 +8,10 @@ public class Task6 {
            }
 
     public static double calculateS(double x) {
-        double s;
-        s = 1 + x;
-        s += (Math.pow(x,2))/factorial(2);
-        s+= (Math.pow(x,3))/factorial(3);
-        s+=(Math.pow(x,4))/factorial(4);
-
+        double s=0;
+        for(int i = 0;i<=4;i++) {
+            s+=Math.pow(x,i)/factorial(i);
+        }
         return s;
     }
 
