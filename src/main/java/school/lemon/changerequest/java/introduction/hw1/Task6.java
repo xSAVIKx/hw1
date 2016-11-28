@@ -7,10 +7,11 @@ public class Task6 {
         }
 
     private static int factorial(int n) {
-        for (int i = 1; i <= n; i++) {
-            n = n * i;
+        int result = 1;
+        for (int i = n; i > 0; i--) {
+            result = result * i;
             }
-            return n;
+            return result;
     }
 
     public static double calculateZ(double x, double y) {
