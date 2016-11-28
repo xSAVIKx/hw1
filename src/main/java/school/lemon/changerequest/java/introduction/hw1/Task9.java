@@ -9,7 +9,7 @@ public class Task9 {
         }
 
         while (n % 3 == 0) {
-            boolean b = (n / 3) == 3;
+            n = n / 3;
         }
             return true;
      }
