@@ -4,36 +4,25 @@ package school.lemon.changerequest.java.introduction.hw1;
 public class Task7 {
     public static String getDayTitle(int dayIndex) {
         String weekDay;
-        switch (dayIndex){
+        switch (dayIndex) {
             case 1:
-                weekDay = "Monday";
-                break;
+                return "Monday";
             case 2:
-                weekDay = "Tuesday";
-                break;
+                return "Tuesday";
             case 3:
-                weekDay = "Wednesday";
-                break;
+                return "Wednesday";
             case 4:
-                weekDay = "Thursday";
-                break;
+                return "Thursday";
             case 5:
-                weekDay = "Friday";
-                break;
+                return "Friday";
             case 6:
-                weekDay = "Saturday";
-                break;
+                return "Saturday";
             case 7:
-                weekDay = "Sunday";
-                break;
+                return "Sunday";
             default:
-                weekDay = "error";
-                break;
+                return "error";
         }
-        return weekDay;
     }
 
-    public static void main(String[] args) {
-        System.out.println(getDayTitle(8));
-    }
+
 }
