@@ -16,5 +16,6 @@ class Task4Specification extends Specification {
         6   | 6   | 6  || 12
         -1  | -2  | 0  || -1
         -28 | -26 | 26 || 0
+        2   | 3   | 1  || 5
     }
 }
