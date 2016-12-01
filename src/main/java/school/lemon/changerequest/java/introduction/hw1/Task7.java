@@ -28,7 +28,7 @@ public class Task7 {
                 return "Sunday";
 
             default:
-                return  "Error";
+                return  "error";
         }
 
 
