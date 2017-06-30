@@ -7,24 +7,17 @@ public class Task9 {
     }
 
     private static boolean verifyIsPowerOfThree(int n) {
-        boolean result;
-        if(n != 0 ){
-            if (n % 3 == 0) {
-                return verifyIsPowerOfThree(n / 3);
-            }
-            else{
-                if (n == 1) {
-                    result = true;
-                }
-                else{
-                    result = false;
-                }
-            }
+        if (n == 0) {
+            return false;
         }
-        else{
-            result = false;
+        if (n == 1) {
+            return true;
         }
-        return result;
+        if (n % 3 == 0 && n > 0) {
+            return verifyIsPowerOfThree(n / 3);
+        } else {
+            return false;
+        }
     }
 }
 
