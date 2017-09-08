@@ -3,7 +3,9 @@ package school.lemon.changerequest.java.introduction.hw1;
 
 public class Task5 {
     public static double calculateA(double x, double y, double z) {
-        return 2 * (Math.sin(x - Math.PI / 6)) * calculateB(z) / (0.5 + Math.pow(Math.sin(y), 2));
+        double divider = (0.5 + Math.pow(Math.sin(y), 2));
+        double divisible = 2 * (Math.sin(x - Math.PI / 6)) * calculateB(z);
+        return divisible/divider;
     }
 
     private static double calculateB(double z) {
