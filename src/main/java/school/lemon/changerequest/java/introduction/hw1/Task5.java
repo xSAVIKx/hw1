@@ -10,8 +10,8 @@ public class Task5 {
 
     private static double calculateB(double z) {
 
-        double sqr_z = z * z;
-        double b = 1 + sqr_z / (3 + sqr_z / 5);
+        double sqrZ = z * z;
+        double b = 1 + sqrZ / (3 + sqrZ / 5);
         return b;
     }
 }

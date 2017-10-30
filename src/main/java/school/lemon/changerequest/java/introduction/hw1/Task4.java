@@ -5,7 +5,7 @@ public class Task4 {
 
     public static double getSumOfGreatest(double a, double b, double c) {
 
-        double sum = 0;
+        double sum;
         if (a < b && a < c)
             sum = b + c;
         else if (b > c)

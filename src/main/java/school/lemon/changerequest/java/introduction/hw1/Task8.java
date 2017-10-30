@@ -5,7 +5,7 @@ public class Task8 {
 
         int res = 0;
         for (int i = 0; i <= N; i++)
-            res += (N + i) * (N + i);
+            res += Math.pow(N + i, 2);
         return res;
     }
 }
